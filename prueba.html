@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Caballos Prehistóricos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-header {
+            background-color: #d4a527;
+            padding: 15px;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .card-content {
+            display: flex;
+            padding: 15px;
+            align-items: center; /* Centra verticalmente */
+        }
+
+        .card-content img {
+            width: 450px; /* Aumento del tamaño de la imagen */
+            height: auto; /* Mantiene la relación de aspecto */
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+
+        .card-content div {
+            flex: 1;
+            margin-right: 50px; /* Espacio a la derecha del texto */
+        }
+
+        .card-content p {
+            color: #333;
+            margin: 0;
+        }
+
+        .card-content p strong {
+            font-weight: bold;
+        }
+
+        .card-content a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #d4a527; /* Color del fondo del título */
+            text-decoration: none; /* Quitar subrayado */
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .card-content a:hover {
+            text-decoration: underline; /* Subrayar al pasar el cursor */
+            color: #aa8111d4;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            CABALLOS PREHISTÓRICOS
+        </div>
+        <div class="card-content">
+            <img src="imagenes/caballo.jpg" alt="Caballos Prehistóricos">
+            <div>
+                <p><strong>Los caballos</strong>, como tantas otras especies animales, <strong>han ido evolucionando a lo largo de la historia</strong>. A través de los registros fósiles se ha podido llegar a establecer una imagen de los primeros caballos: un pequeño mamífero de un tamaño similar al de un zorro. Este es el origen de los tiempos de los caballos prehistóricos, pero, cómo fueron, cómo […]</p>
+                <a href="https://ejemplo.com/">Leer más</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            EURHINOSAURUS – ¿PEZ ESPADA O PEZ SIERRA?
+        </div>
+        <div class="card-content">
+            <img src="imagenes/eurhinosaurus.jpg" alt="Eurhinosaurus">
+            <div>
+                <p><u>El querer dedicar un post a un dinosaurio acuático es todo un reto</u>, porque apenas hay información sobre ellos. Pero como en dinosaurios no hay nada que se nos resista, nos hemos lanzado a las profundidades del mar en busca del Eurhinosaurus, un género de ictiosaurios que habitó en los mares de Europa durante el Jurásico Temprano. Así que coge […]</p>
+                <a href="https://ejemplo.com/">Leer más</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
